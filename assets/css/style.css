@@ -2,7 +2,7 @@
 
 /* --------------------------------Nav Bar*/
 
-/* The navigation bar */
+
 .navbar {
     overflow: hidden;
     background-color: #2A363B;
@@ -12,7 +12,7 @@
     justify-content: center;
   }
   
-  /* Links inside the navbar */
+
   .navbar a {
     float: left;
     display: block;
@@ -26,7 +26,7 @@
     text-transform: uppercase;
   }
   
-  /* Change background on mouse-over */
+
   .navbar a:hover {
     background: #FECEAB;
     color: black;
@@ -44,3 +44,13 @@
   bottom: 12px;
   left: 2px;
 }
+
+/* --------------------------------Hover.css*/
+
+.hvr-sweep-to-bottom:before {
+  background: rgba(0, 0, 0, 0.2);
+  height: 120px;
+}
+
+/* --------------------------------Logo*/
+
