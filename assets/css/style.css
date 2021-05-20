@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Permanent+Marker&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: #99B898;
+  background: #3c3535d6;
+}
+
+hr {
+  width: 100%;
+  background: transparent;
 }
 
 /* --------------------------------Nav Bar*/
@@ -13,10 +22,11 @@ body {
     padding: 0;
     overflow: hidden;
     background-color: #2A363B;
-    position: sticky; 
+    position: fixed; 
     top: 0; 
     width: 100%;
     justify-content: center;
+    z-index: 1;
   }
   
 
@@ -52,26 +62,218 @@ body {
 
 .download-icon {
   position: relative;
-  bottom: 12px;
+  bottom: 7px;
   left: 2px;
+}
+
+.section-heading h1 {
+  font-family: 'Permanent Marker' ,sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: wavy;    
+  letter-spacing: 0.3rem;
+  margin: 15px 25px 30px;
+  color: #fff;
 }
 
 /* --------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
   background: rgba(0, 0, 0, 0.2);
-  height: 120px;
+  height: auto;
+}
+
+.social-links a:hover {
+  color: #c7a187;
 }
 
 /* --------------------------------Logo*/
 
+.logo-container {
+  padding-right: 0;
+}
+
 .logo {
-  background-color: #99B898;
+  background-color: transparent;
   background: url(/assets/images/hmlogosmall.png); 
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 50%;
   height: 600px;
   width: 100%;
-  border: 4px solid #000;
+  margin: 0;
+}
+
+/* --------------------------------Slideshow*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+.gallery {
+  background: #363636;
+  width: 100%;
+  padding: 0 12px 25px 12px;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+.container img {
+  border: 1px solid #fff;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  width: 100%;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 12px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+  border: 1px solid #fff;
+}
+
+.caption-container p {
+  margin-top: 1rem;
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    text-decoration: underline solid #fff;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+.thumbnails img {
+  width: 100%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+/* --------------------------------Footer*/
+
+.footer {
+  position: absolute;
+  width: 100%;
+  background-color: #2A363B;
+  margin-bottom: 50px;
+}
+
+.socials {
+  color: #fff;
+  font-size: 25px;
+}
+
+.social-links {
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+
+.hot-mass-font {
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  background: url(/assets/images/hotmassfont.png); 
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+
+
+
+/*---------------------------------------Band Info*/
+
+.band-text h2 {
+  font-family: 'Permanent Marker' ,sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+  letter-spacing: 0.1rem;
+  color: #fff;
+}
+  
+
+.band-text p, ul {
+  font-family: 'Amatic SC', sans-serif;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  display: inline-block;
+  color: #fff;
+}
+
+.band-text ul {
+  list-style-type: none;
+  text-align: inherit;
 }

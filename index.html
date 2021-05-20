@@ -11,14 +11,14 @@
     <title>Hot Mass</title>
 </head>
 <body>
-    <header class="">
-        <nav>
+    <div>
+        <nav id="home">
             <ul class="navbar">
                 <li>
-                <a href="#" class="hvr-sweep-to-bottom"><span>Home</span></a>
+                <a href="#home" class="hvr-sweep-to-bottom"><span>Home</span></a>
                 </li>
                 <li>
-                <a href="#" class="hvr-sweep-to-bottom"><span>The Band</span></a>
+                <a href="#gallery" class="hvr-sweep-to-bottom"><span>The Band</span></a>
                 </li>
                 <li>
                 <a href="#" class="hvr-sweep-to-bottom"><span>Media</span></a>
@@ -34,20 +34,205 @@
                 </li>
             </ul>
         </nav>
-    </header>
+    </div>
 
-    <section >
+    <section id="logo" class="logo-container">
         <div class="logo" alt="Hot Mass Logo">
         </div>
     </section>
 
-    <section>
+<hr>
+
+    <section id="band" class="gallery">
+        <div class="row">
+            <div class="col col-12 section-heading">
+                <h1>The band</h1>
+            </div>
+        </div>
+
+        <!-- Container for the image gallery -->
+        <div id="gallery" class="container">
+
+            <!-- Full-width images with number text -->
+            <div class="mySlides">
+            <div class="numbertext">1 / 6</div>
+                <img src="/assets/images/cardiff.jpg" ">
+            </div>
         
+            <div class="mySlides">
+            <div class="numbertext">2 / 6</div>
+                <img src="assets/images/chris.JPG" ">
+            </div>
+        
+            <div class="mySlides">
+            <div class="numbertext">3 / 6</div>
+                <img src="assets/images/chrisscottken.JPG" ">
+            </div>
+        
+            <div class="mySlides">
+            <div class="numbertext">4 / 6</div>
+                <img src="assets/images/fullband.JPG" ">
+            </div>
+        
+            <div class="mySlides">
+            <div class="numbertext">5 / 6</div>
+                <img src="assets/images/chrisrhysken.JPG" ">
+            </div>
+        
+            <div class="mySlides">
+            <div class="numbertext">6 / 6</div>
+                <img src="assets/images/kenchris.JPG" ">
+            </div>
+        
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        
+            <!-- Image text -->
+            <div class="caption-container">
+            <p id="caption"></p>
+            </div>
+        
+            <!-- Thumbnail images -->
+            <div class="row">
+            <div class="column thumbnails">
+                <img class="demo cursor" src="assets/images/cardiff.jpg" onclick="currentSlide(1)" alt="GwdiHw">
+            </div>
+            <div class="column thumbnails">
+                <img class="demo cursor" src="assets/images/chris.JPG" onclick="currentSlide(2)" alt="Chris in the Studio">
+            </div>
+            <div class="column thumbnails">
+                <img class="demo cursor" src="assets/images/chrisscottken.JPG"  onclick="currentSlide(3)" alt="Chris, Scott and Ken">
+            </div>
+            <div class="column thumbnails">
+                <img class="demo cursor" src="assets/images/fullband.JPG"  onclick="currentSlide(4)" alt="Full band">
+            </div>
+            <div class="column thumbnails">
+                <img class="demo cursor" src="assets/images/chrisrhysken.JPG"  onclick="currentSlide(5)" alt="Chris, Rhys and Ken">
+            </div>
+            <div class="column thumbnails">
+                <img class="demo cursor" src="assets/images/kenchris.JPG"  onclick="currentSlide(6)" alt="Ken and Chris">
+            </div>
+            </div>
+        </div>
+
+        <script> var slideIndex = 1;
+            showSlides(slideIndex);
+            
+            // Next/previous controls
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+            
+            // Thumbnail image controls
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+            
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              var captionText = document.getElementById("caption");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+              captionText.innerHTML = dots[slideIndex-1].alt;
+            }</script>
     </section>
 
+<hr>
 
-    <footer class="container-fluid">
+<section class="container-fluid band-info">
+    <div class="row band-text">
+        <div class="col col-4">
+            <div>
+                <h2>
+                    The Band
+                </h2>
+            </div>
+            <br>
+            <div>
+                <p>
+                    Hot Mass are an alternative punk band from South Wales, UK
 
+                    With members originally carving their way in the music scene as young rockers from previous UK bands
+
+                    Hailing from Swansea, UK, 
+                    <ul>
+                        <li>
+                            Rhys Jenkins - Guitar / Vocals
+                        </li>
+                        <li>   
+                            Chris O'Reilly - Bass / Vocals
+                        </li>
+                        <li>
+                            Scott Neill - Guitar 
+                        </li>
+                        <li>
+                            Duncan Hamill - Drums
+                        </li>
+                        
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="col col-4">
+            <div>
+                <h2>
+                    The Sound
+                </h2>
+            </div>
+            <br>
+            <div>
+                <p> 
+                    Hot Mass play crushing riffs like they arrived into the world with electric guitars in their hands. 
+                    With the current state of the world, what better time to listen to punk., their eclectic taste in 
+                    music has all been thrown into the melting pot to create some melodic, grunge fuelled, indie popping, jaw dropping, 
+                    punk bangers awash with defiant upbeat lyricism and more guitar battles than you’d find on a Thin Lizzy record.
+                </p>
+            </div>
+
+        </div>
+        <div class="col col-4">
+            <div>
+                <h2>The Future</h2>
+            </div>
+            <br>
+            <div>
+                <p> 
+                    In the immediate future, Hot Mass intend to release singles and music videos to promote the upcoming album. 
+                    Ahead of the release, the music/band will be promoted through a creative social media PR and marketing campaign, organising new designs for merchandise, and finally, 
+                    by engaging with established as well as new booking agents to secure touring opportunities.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+    <footer class="footer">
+        <div class="container pt-1">
+            <div class="row">
+                <div class="col-3 hot-mass-font"></div>
+                <div class="col-9 social-links">
+                    <a class="socials" href="https://hotmass.bandcamp.com/" target="_blank"><i class="fab fa-bandcamp"></i></a>
+                    <a class="socials" href="https://open.spotify.com/artist/2QEmDJigPVvfIpta7Gvl5M?si=LI7U9GUxRqmHO86SaIHYww" target="_blank"><i class="fab fa-spotify"></i></a>
+                    <a class="socials" href="https://music.apple.com/us/artist/hot-mass/1115096243" target="_blank"><i class="fab fa-apple"></i></a>
+                    <a class="socials" href="https://www.facebook.com/HOTMASSBAND/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a class="socials" href="https://twitter.com/hotmassband" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    <a class="socials" href="https://www.instagram.com/hotmassband" target="_blank"><i class="fab fa-instagram-square"></i></a>
+                    <a class="socials" href="https://www.youtube.com/channel/UCUUsatQWQAAdKXmWEPuKALw/featured" target="_blank"><i class="fab fa-youtube-square"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
