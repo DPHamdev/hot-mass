@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html id="top" lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,10 +15,10 @@
         <nav id="home">
             <ul class="navbar">
                 <li>
-                <a href="#home" class="hvr-sweep-to-bottom"><span>Home</span></a>
+                <a href="#top" class="hvr-sweep-to-bottom"><span>Home</span></a>
                 </li>
                 <li>
-                <a href="#gallery" class="hvr-sweep-to-bottom"><span>The Band</span></a>
+                <a href="#gallery-break" class="hvr-sweep-to-bottom"><span>The Band</span></a>
                 </li>
                 <li>
                 <a href="#" class="hvr-sweep-to-bottom"><span>Media</span></a>
@@ -35,18 +35,17 @@
             </ul>
         </nav>
     </div>
-
     <section id="logo" class="logo-container">
         <div class="logo" alt="Hot Mass Logo">
         </div>
     </section>
 
-<hr>
-
     <section id="band" class="gallery">
+        <hr id="gallery-break">
         <div class="row">
             <div class="col col-12 section-heading">
-                <h1>The band</h1>
+                
+                    <h1>The band</h1>
             </div>
         </div>
 
@@ -148,11 +147,9 @@
             }</script>
     </section>
 
-<hr>
-
 <section class="container-fluid band-info">
     <div class="row band-text">
-        <div class="col col-4">
+        <div id="the-band" class="col col-4">
             <div>
                 <h2>
                     The Band
@@ -166,25 +163,27 @@
                     With members originally carving their way in the music scene as young rockers from previous UK bands
 
                     Hailing from Swansea, UK, 
-                    <ul>
-                        <li>
-                            Rhys Jenkins - Guitar / Vocals
-                        </li>
-                        <li>   
-                            Chris O'Reilly - Bass / Vocals
-                        </li>
-                        <li>
-                            Scott Neill - Guitar 
-                        </li>
-                        <li>
-                            Duncan Hamill - Drums
-                        </li>
-                        
-                    </ul>
+                    <div class="band-list">
+                        <ul>
+                            <li>
+                                <span id="list-name"> Rhys Jenkins </span>  <span id="list-instrument"> Guitar / Vocals </span>
+                            </li>
+                            <li>   
+                                <span id="list-name">Chris O'Reilly</span>   <span id="list-instrument">Bass / Vocals</span> 
+                            </li>
+                            <li>
+                                <span id="list-name">Scott Neill</span>   <span id="list-instrument">Guitar </span> 
+                            </li>
+                            <li>
+                                <span id="list-name">Duncan Hamill</span>   <span id="list-instrument">Drums</span>
+                            </li>
+                            
+                        </ul>
+                    </div>
                 </p>
             </div>
         </div>
-        <div class="col col-4">
+        <div id="the-sound" class="col col-4">
             <div>
                 <h2>
                     The Sound
@@ -201,7 +200,7 @@
             </div>
 
         </div>
-        <div class="col col-4">
+        <div id="the-future" class="col col-4">
             <div>
                 <h2>The Future</h2>
             </div>
