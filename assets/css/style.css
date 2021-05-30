@@ -321,3 +321,116 @@ hr, #gallery-break {
   border: 2px solid black;
   padding: 0;
 }
+
+
+/*---------------------------------------Media*/
+
+#media {
+  background: #8ab397a6;
+}
+
+
+.music-player {
+  background: #8ab397a6;
+}
+
+.music-player iframe {
+  border: 2px solid #000;
+}
+
+.video-player {
+  background: #8ab397a6;
+}
+
+.video-player iframe {
+  border: 2px solid #fff;
+}
+
+.video-grid {
+ 
+}
+
+.hm-video {
+
+}
+
+/*---------------------------------------Merch*/
+
+#merch {
+  background: #671b1b;
+  padding: 0;
+  margin: 0;
+}
+
+#merch-image, img {
+  width: 100%;
+  padding: 5px 0 5px 5px;
+}
+
+#merch-image {
+  width: 50%;
+  margin: 0;
+}
+
+.merch {
+  background: #b6b787;
+  padding: 0;
+  margin: auto;
+}
+
+.merch-text {
+  text-align: center;
+  margin: auto;
+  border: 2px solid #000;
+  background: #904141;
+}
+
+.merch-text h2 {
+  font-family: 'Amatic SC', cursive, sans-serif;
+  font-size: 3rem;
+  text-decoration-style: wavy;
+  letter-spacing: 0.1rem;
+  color: #fff;
+}
+
+.merch-text p {
+  font-family: 'Amatic SC', cursive, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  display: inline-block;
+  color: #fff;
+}
+
+.merch-text a {
+  color: #000;
+}
+
+.merch-text a:hover {
+  color: #ecc941;
+}
+
+.merch-info {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+#the-merch {
+
+}
+
+
+/*---------------------------------------Contact*/
+
+.contact {
+  background: #752b2b;
+}
+
+.contact-form {
+  color: #fff;
+  font-family: 'Amatic SC', cursive, sans-serif;
+}
+
+#contact {
+  background: #617b7a;
+}
