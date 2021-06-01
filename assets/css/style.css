@@ -13,10 +13,6 @@ hr {
   background: transparent;
 }
 
-hr, #gallery-break {
-  margin: 0 0 70px 0;
-}
-
 /* --------------------------------Nav Bar*/
 
 
@@ -49,7 +45,7 @@ hr, #gallery-break {
   
 
 .navbar a:hover {
-  background: #FECEAB;
+  background: #e2ce9c;
   color: #000;
   }
   
@@ -70,7 +66,7 @@ hr, #gallery-break {
   text-align: center;
   font-size: 5rem;  
   letter-spacing: 0.3rem;
-  margin: 15px 25px 30px;
+  margin: 25px 0;
   color: #fff;
 }
 
@@ -82,7 +78,7 @@ hr, #gallery-break {
 }
 
 .social-links a:hover {
-  color: #c7a187;
+  color: #e2ce9c;
 }
 
 /* --------------------------------Logo*/
@@ -111,7 +107,7 @@ hr, #gallery-break {
 .gallery {
   background: #363636;
   width: 100%;
-  padding: 0 12px 25px 12px;
+  padding: 25px 0;
   border: 2px solid white;
 }
 
@@ -259,16 +255,19 @@ hr, #gallery-break {
   text-align: center;
   text-decoration-style: wavy;
   letter-spacing: 0.1rem;
-  color: #fff;
+  color: #000;
+  margin: 10% 0 5%;
 }
 
 .band-text p {
   font-family: 'Amatic SC', cursive, sans-serif;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 1.5rem;
   display: inline-block;
-  color: #fff;
+  color: #000;
+  width: 100%;
+  padding: 5%;
 }
 
 .band-list ul {
@@ -278,7 +277,7 @@ hr, #gallery-break {
   line-height: 1.5rem;
   margin: 0 auto;
   padding: 0;
-  color: #fff;
+  color: #000;
 }
 
 .band-list li {
@@ -296,14 +295,14 @@ hr, #gallery-break {
 }
 
 #the-band {
-  background-color: #752b2b;
+  background-color: #e2ce9c;
   border: 2px solid black;
   padding: 0;
 }
 
 #the-sound {
-  background-color: #b6b787;
-  border: 2px solid white;
+  background-color: #e2ce9c;
+  border: 2px solid black;
   padding: 0;
 }
 
@@ -317,7 +316,7 @@ hr, #gallery-break {
 
 
 #the-future {
-  background-color: #752b2b;
+  background-color: #e2ce9c;
   border: 2px solid black;
   padding: 0;
 }
@@ -326,20 +325,23 @@ hr, #gallery-break {
 /*---------------------------------------Media*/
 
 #media {
-  background: #8ab397a6;
+  background: #5b5555;
+  padding: 25px 0;
 }
 
 
 .music-player {
-  background: #8ab397a6;
+  background: #5b5555;
+  width: 50%;
+  margin: 0 auto;
 }
 
 .music-player iframe {
-  border: 2px solid #000;
+  border: 2px solid #fff;
 }
 
 .video-player {
-  background: #8ab397a6;
+  background: #5b5555;
 }
 
 .video-player iframe {
@@ -347,24 +349,25 @@ hr, #gallery-break {
 }
 
 .video-grid {
- 
+
 }
 
 .hm-video {
-
+  padding: 25px 5px;
+  width: 25%;
 }
 
 /*---------------------------------------Merch*/
 
 #merch {
-  background: #671b1b;
-  padding: 0;
+  background: #363636;
+  padding: 25px 0;
   margin: 0;
 }
 
 #merch-image, img {
   width: 100%;
-  padding: 5px 0 5px 5px;
+  padding: 0;
 }
 
 #merch-image {
@@ -380,9 +383,10 @@ hr, #gallery-break {
 
 .merch-text {
   text-align: center;
-  margin: auto;
+  margin: 0 auto;
   border: 2px solid #000;
-  background: #904141;
+  background: #e2ce9c;
+  width: 50%;
 }
 
 .merch-text h2 {
@@ -390,15 +394,17 @@ hr, #gallery-break {
   font-size: 3rem;
   text-decoration-style: wavy;
   letter-spacing: 0.1rem;
-  color: #fff;
+  color: #000;
+  margin: 65px 0 35px;
+  width: 100%;
 }
 
 .merch-text p {
   font-family: 'Amatic SC', cursive, sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 1.5rem;
   display: inline-block;
-  color: #fff;
+  color: #000;
 }
 
 .merch-text a {
@@ -406,13 +412,14 @@ hr, #gallery-break {
 }
 
 .merch-text a:hover {
-  color: #ecc941;
+  color: #85589c;
 }
 
 .merch-info {
   padding: 0;
   margin: 0;
   width: 100%;
+  border: 2px solid white;
 }
 
 #the-merch {
@@ -423,14 +430,28 @@ hr, #gallery-break {
 /*---------------------------------------Contact*/
 
 .contact {
-  background: #752b2b;
+  background: #5b5555;
+  padding: 25px 0;
 }
 
 .contact-form {
   color: #fff;
   font-family: 'Amatic SC', cursive, sans-serif;
+  font-size: larger;
+  width: 250px;
+  margin: 0 auto;
+  padding: 25px 0;
 }
 
 #contact {
-  background: #617b7a;
+  background: #5b5555;
+  padding: 25px 0;
+}
+
+#submit {
+  float: right;
+}
+
+#submit:hover {
+  background-color: #85589c;
 }

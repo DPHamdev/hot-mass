@@ -41,7 +41,6 @@
     </section>
 
     <section id="band" class="gallery">
-        <hr id="gallery-break">
         <div class="row">
             <div class="col col-12 section-heading">
                 
@@ -297,16 +296,14 @@
             </div>
         </div>
         <div class="contact-form">
-            <form action="push">
+            <form action="push" novalidate>
                     <label for="fname">Name:</label><br>
                     <input type="text" id="name" name="name"><br>
-                    <label for="email">Email</label><br>
-                    <input type="email" id="email" name="email">
-                    <label for="message" name="message"></label><br>
-                    <textarea id="message" name="message" rows="10" cols="50">
-                    Ask us anything
-                    </textarea><br>
-                    <input type="submit" value="Send us a message">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="message" name="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="10" cols="50">Ask us anything</textarea><br>
+                    <input type="submit" value="Send us a message" id="submit">
                     <br>
             </form>
         </div>
