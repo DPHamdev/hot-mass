@@ -87,7 +87,7 @@ hr {
 
 .logo {
   background-color: transparent;
-  background: url(assets/images/hmlogosmall.png); 
+  background: url(assets/images/hm-logo-small.png); 
   background-repeat: no-repeat;
   background-position: center;
   height: 600px;
@@ -237,7 +237,7 @@ hr {
   padding: 0;
   margin: 0;
   background-color: transparent;
-  background: url(assets/images/hotmassfont.png); 
+  background: url(assets/images/hot-mass-font.png); 
   background-repeat: no-repeat;
   background-size: contain;
   
