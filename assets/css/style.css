@@ -485,7 +485,7 @@ hr {
 }
 
 @media (max-width: 768px) {
-  .band-info h2,p {
+  .band-info h2,p,ul {
       margin: 0;
       padding: 5% 0;
     }
