@@ -485,11 +485,19 @@ hr {
 }
 
 @media (max-width: 768px) {
-  .band-info h2,p,ul {
+  .band-info h2,p {
       margin: 0;
       padding: 5% 0;
     }
 }
+
+@media (max-width: 768px) {
+  .band-list ul {
+      margin: 0;
+      padding: 5% 0;
+    }
+}
+
 
 @media (max-width: 768px) {
   .band-info {
