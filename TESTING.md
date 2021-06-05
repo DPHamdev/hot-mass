@@ -1,4 +1,4 @@
-Testing 
+# Testing 
 
 Testing this site to include user friendly experiences was demonstrated on various screen size viewports and external validating tools. 
 
@@ -49,6 +49,8 @@ CSS validation revealed issues with bootstrap (https://cdn.jsdelivr.net/npm/boot
 * A contact form requiring small but essential information for the band to use allows the user to contact the band with any query without having to divulge massive amounts of time and effort in order to do so. 
 
 ## Lighthouse report
+
+![Lighthouse](https://i.ibb.co/9tdPV2k/Screen-Shot-2021-06-05-at-11-18-18.png)
 
 * Scoring highly on everything bar performance due to the background image being hosted externally rather than within gitpod means performance is lower than required. 
 
