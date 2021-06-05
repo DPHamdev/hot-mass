@@ -18,11 +18,17 @@ The ideal goal for the band is to have a prospective client/agency move forward 
 
 # Navigation
 
+
+
 ## Landing page 
+
+
 
 When first navigating to the page the user is given a single page. A simple colour scheme is incorporated to make it more visually appealing with clear contrast between text and background colour. 
 
 ### Navigation Bar
+
+![](https://i.ibb.co/9n5JcPX/Screen-Shot-2021-06-05-at-11-47-43.png)
 
 The Nav bar is fixed to the top of the page when scrolling to ensure that access to any section within the page is within one click. 
 
@@ -36,12 +42,16 @@ Each navigation link has a hover feature to ensure that the user knows which lin
 
 ### Landing page image
 
+![Landing Page Image](https://i.ibb.co/2sRp0W2/Screen-Shot-2021-06-05-at-11-47-30.png)
+
 The image used is a large version of the bands logo hosted externally with a transparent background to eliminate any white backgrounds from the image file existing. 
 
 The colours featured in the logo image are what constitute the colour scheme used throughout the website. 
 This allows for continuity and familiarity especially aestetically. 
 
 ## Footer 
+
+
 
 The footer is placed at the very bottom of the page with an absolute position to ensure that it stays at the bottom. 
 
@@ -59,6 +69,7 @@ Each one brings the user to a new browser window once clicked, to ensure that on
 The band section includes information about the band as well as an interactive gallery featuring javascript to make for an easier navigation and interaction when clicking the images. 
 
 ### Scrolling pictures
+
 
 The gallery when displayed on larger screen sizes includes smaller thumbnails of the other images included, once the site is loaded onto devices with smaller screens, the thumbnails are no longer displayed as they become disruptive if they're included at a size which is distinguishable. 
 
@@ -93,6 +104,8 @@ Including three defined areas of text means the user is able to easiliy distingu
 
 ## The Media
 
+![Media](ttps://i.ibb.co/w7xSWk2/Screen-Shot-2021-06-05-at-11-48-28.png)
+
 The media section gives the user interaction with the bands various medias. 
 
 ### Embedded Music Player 
@@ -115,6 +128,7 @@ The video players incorporate full control over the video with the option to bri
 
 ## The Merchandise
 
+
 This section is featured to give the user a brief understanding of what the band has on offer for people to purchase branded merchandise.
 
 ### The Merch
@@ -136,6 +150,8 @@ The same colour scheme is incorporated to ensure continuity between the logo ima
 The contact section is included to allow the user to interact with the band by sending an enquiry of their own should they have any questions they'd like to ask. 
 
 ### Contact Form 
+
+![](https://i.ibb.co/1v15FBy/Screen-Shot-2021-06-05-at-11-49-19.png)
 
 The contact form includes enough information for the band to identify the user. The few fields required means that the user can interact with the band without having to input vast amounts of information in order to do so. 
 
