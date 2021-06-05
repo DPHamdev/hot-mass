@@ -452,7 +452,9 @@ hr {
 
 @media (max-width: 768px) {
   .hm-nav a {
-      font-size: medium;
+    font-size: medium;
+    padding: 4px;
+    margin: 3px;
     }
 }
 
@@ -493,7 +495,6 @@ hr {
 
 @media (max-width: 768px) {
   .band-list ul {
-      margin: 0;
       padding: 5% 0;
     }
 }
