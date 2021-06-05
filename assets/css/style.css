@@ -87,7 +87,6 @@ hr {
 
 .logo {
   background-color: transparent;
-  background-image: url("./assets/images/hm-logo-small.png"); 
   background-repeat: no-repeat;
   background-position: center;
   height: 600px;
@@ -349,7 +348,6 @@ hr {
 }
 
 .hm-video iframe{
-  padding: 25px 5px;
   width: 100%;
   height: 315px;
 }
