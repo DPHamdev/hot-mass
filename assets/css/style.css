@@ -45,7 +45,10 @@ hr {
   text-transform: uppercase;
   }
 
-  
+  .hm-nav a:hover {
+    background: #e2ce9c;
+    color: #000;
+    }
 
 /* --------------------------------Special paddings/margins/text*/
 
@@ -95,7 +98,6 @@ hr {
 }
 
 /* --------------------------------Slideshow*/
-
 
 * {
   box-sizing: border-box;
@@ -274,7 +276,7 @@ hr {
   font-size: 1.2rem;
   line-height: 1.5rem;
   margin: 0 auto;
-  padding: 0;
+  padding: 20px 0;
   color: #000;
 }
 
@@ -296,21 +298,18 @@ hr {
   background-color: #e2ce9c;
   border: 2px solid black;
   padding: 0;
-  
 }
 
 #the-sound {
   background-color: #e2ce9c;
   border: 2px solid black;
   padding: 0;
-  
 }
 
 #the-future {
   background-color: #e2ce9c;
   border: 2px solid black;
   padding: 0;
-  
 }
 
 
